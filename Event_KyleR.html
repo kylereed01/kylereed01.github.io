@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artificial Intelligence Conference 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url("AI2.jpg");
+        }
+        header {
+            background: #007BFF;
+            color: black;
+            padding: 20px 0;
+            text-align: center;
+            background-image: url("AI3.jpg");
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            ackground-image: url("AI1.jpg");
+        }
+        h2 {
+            color: #007BFF;
+            ackground-image: url("AI1.jpg");
+        }
+        .speaker {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            background-image: url("AI3.jpg");
+        }
+        .speaker img {
+            width: 250px;
+            border-radius: 50%;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, button {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Artificial Intelligence Conference 2024</h1>
+    <p>Join us 12/09/2024 for an exciting day of innovation, networking, and inspiration into the growing field of AI technology! This conference will expand your knowledge as a technology contributor and help the world become a better place with responsible AI technological innovations.</p>
+</header>
+
+<section>
+    <h2>Event Schedule</h2>
+    <ul>
+        <li><strong>8:00 AM</strong> - Speech by Sam Altman, CEO of OpenAI</li>
+        <li><strong>10:00 AM</strong> - Panel Discussion: The Future of AI</li>
+        <li><strong>2:00 PM</strong> - Workshop: Building Responsive AI Technology</li>
+        <li><strong>4:00 PM</strong> - Closing Remarks</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Featured Speakers</h2>
+    <div class="speaker">
+        <div>
+            <img src="speaker1.jpg" alt="Sam Altman" width="200" height="200">>
+            <h3>Sam Altman</h3>
+            <p>CEO of OpenAI</p>
+            <p>Sam Altman is a prominent figure in the technology sector, known for his role as co-founder and CEO of OpenAI, where he has led groundbreaking advancements in artificial intelligence, including the development of ChatGPT and DALL-E. Prior to OpenAI, he co-founded Loopt, a pioneering location-based social networking app, and served as president of Y Combinator from 2014 to 2019, mentoring numerous successful startups such as Airbnb and Reddit. His extensive experience encompasses entrepreneurship, investment in over 100 companies, and a commitment to ethical AI development.</p>
+        </div>
+        <div>
+            <img src="speaker2.jpg" alt="Jensen Huang" width="200" height="200">>
+            <h3>Jensen Huang</h3>
+            <p>Chief Executive and Co-Founder of Nvidia Corp. </p>
+        <p>Jensen Huang is an electrical engineer who co-founded NVIDIA in 1993, where he has served as CEO since its inception. He previously worked at Advanced Micro Devices (AMD) and LSI Logic, gaining valuable experience in semiconductor design and management. Under his leadership, NVIDIA pioneered the development of Graphics Processing Units (GPUs) and has significantly impacted the fields of gaming, artificial intelligence, and accelerated computing.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Register Now!</h2>
+    <form action="submit_registration.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="company" placeholder="Your Company" required>
+        <button type="submit">Submit Registration Now</button>
+    </form>
+</section>
+
+</body>
+</html>
