@@ -1,70 +1,64 @@
-body, html{
-height: 100%;
-margin: 0;
-font-family: 'Poppins', sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.8em;
-color: #666;
+body {
+    background-image:url("burgerbackground.jpg");
+    background-size:100%,100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.pimg1{
-background-image: url('philadelphia.jpg');
-min-height: 100%;
+
+header {
+     font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+    color: white;
+    background-image:url("headerbackground.jpg");
+    background-size:100%,100%;
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px;
 }
-.pimg2{
-background-image: url('PhillyHistory.jpg');
-min-height: 400px;
+
+.menu {
+    font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.pimg3{
-background-image: url('PhillyFoods.jpg');
-min-height:400px;
+
+.menu-item {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
 }
-.pimg4{
-background-image: url('PhillyArts.jpg');
-min-height:400px;
+
+.menu-item img {
+    
+    width: 250px;
+    height: 250px;
 }
-.pimg1, .pimg2, .pimg3, .pimg4{
-position: relative;
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-opacity: 0.70; 
-background-attachment: fixed;
-}
-.section{
-text-align: center;
-padding : 50px 80px;
-}
-.section{
-background-color: #f2f2f2;
-color: #666;
-}
-.section{	
-background-color: #4c4c4c;
-color: #ddd;
-}
-.ptext{
-position: absolute;
-top: 50%;
-width: 100%;
-text-align: center;
-font-size: 27px;
-color: #000;
-letter-spacing: 8px;
-text-transform: uppercase;
-}
-.ptext .border{
-background-color: black;
-color: #fff;
-padding: 20px;
-font-weight: 500;
-}
-.ptext .border.trans{
-background-color: black;
-}
-@media(max-width : 568px){
-.pimg1, .pimg2, .pimg3, .pimg4
-{
-background-attachment: scroll;
-}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
