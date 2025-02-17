@@ -35,16 +35,16 @@ $(document).ready(function(){
 
     
     var typed = new Typed(".typing", {
-        strings: ["Computer Scientist", "Programmer"],
-        typeSpeed: 200,
-        backSpeed: 120,
+        strings: ["Computer Scientist", "Programmer", "Data Analyst"],
+        typeSpeed: 100,
+        backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Computer Scientist", "Programmer"],
-        typeSpeed: 200,
-        backSpeed: 120,
+        strings: ["Computer Scientist", "Programmer", "Data Analyst"],
+        typeSpeed: 100,
+        backSpeed: 60,
         loop: true
     });
 
