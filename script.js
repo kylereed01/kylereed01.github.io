@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     
     var typed = new Typed(".typing", {
-        strings: ["Computer Scientist", "Programmer", "Heavy Equipment Operator", "Security Officer", "Pest Control Technician"],
+        strings: ["Computer Scientist", "Programmer"],
         typeSpeed: 200,
         backSpeed: 120,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Computer Scientist", "Programmer", "Heavy Equipment Operator", "Security Officer", "Pest Control Technician"],
+        strings: ["Computer Scientist", "Programmer"],
         typeSpeed: 200,
         backSpeed: 120,
         loop: true
