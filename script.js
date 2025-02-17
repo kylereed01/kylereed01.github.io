@@ -34,14 +34,14 @@ $(document).ready(function(){
     });
 
     
-    var typed = new Typed(".typing", {
+    var typed = new Typed("typing", {
         strings: ["Computer Scientist", "Programmer", "Heavy Equipment Operator", "Security Officer", "Pest Control Technician"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
-    var typed = new Typed(".typing-2", {
+    var typed = new Typed("typing-2", {
         strings: ["Computer Scientist", "Programmer", "Heavy Equipment Operator", "Security Officer", "Pest Control Technician"],
         typeSpeed: 100,
         backSpeed: 60,
