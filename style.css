@@ -436,14 +436,6 @@ section .title::after{
     text-decoration: none;
     color: crimson!important;
 }
-
-
-
-
-
-
-
-
 .company .title::after{
     content: "Who I Have Worked With";
 }
